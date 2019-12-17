@@ -1,1 +1,23 @@
-# request-test
+{
+  "providers": [
+    {
+      "npi": "1396709168",
+      "address": "4100 LAKE OTIS PKWY STE. 322, ANCHORAGE, AK",
+      "bookingType": "INSTANT",
+      "timezone": "America/New_York",
+      "appointmentTypes": [
+        {
+          "id": "appointment type id",
+          "displayName": "New Patient",
+          "duration": 20,
+          "code": "medical code",
+          "nextAvailableSlot": "2019-03-04T12:00:00.000Z"
+        }
+      ],
+      "taxonomies": {
+      	"taxonomyCode": "coding"
+      }
+    }
+  ],
+  "memberToken": "empty member token"
+}
